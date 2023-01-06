@@ -24,13 +24,13 @@ I have used pipenv package which is a nice python package manager tool. To insta
 
 Next: Navigate to the project root folder and run `pipenv shell` to create a virtual environment. This will also cerate a Pipfile in your root directory. To check the virtual environment run `pipenv --venv`. This is like any other virtual environment.
 
-#### Step 3 - Install libraries
+### Step 3 - Install libraries
 
 Run `pipenv install pandas numpy scikit-learn matplotlib seaborn mlflow xgboost prefect hyperopt feature-engine joblib jupyter prefect`. This will also create a Pipfile.lock file with more details about the packages and their versions
 
 Next: run `piipenv install pytest --dev` for installing pytest only for development purpose
 
-#### Step 4 - Initialize a empty git repository in your root folder and make a first push
+### Step 4 - Initialize a empty git repository in your root folder and make a first push
 
 Run `git init` in your root folder. This will create an empty git repository.
 Next: create a `.gitignore` file and mention the files you don't want to upload to the GitHub remore repository
