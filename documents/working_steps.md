@@ -1,8 +1,8 @@
 Author: Tanmoy Halder
 Date: 05/01/2023
-Updated: 05/01/2023
+Updated: 09/01/2023
 
-This markdown shows the steps performed in this project. If someone foloows these steps the whole project can be reproduced. Let's begin.
+This markdown shows the steps performed in this project for initial setup. If someone follows these steps, initial set up should not be a problem. Let's begin.
 
 ### Pre-requisites
 
@@ -22,13 +22,15 @@ Windows/MacOS/Linux - Anything is fine as long as you have the required software
 
 I have used pipenv package which is a nice python package manager tool. To install, go to your project folder (in a terminal or directly in VS Code open a terminal). Run the command `pip install pipenv`
 
-Next: Navigate to the project root folder and run `pipenv shell` to create a virtual environment. This will also cerate a Pipfile in your root directory. To check the virtual environment run `pipenv --venv`. This is like any other virtual environment.
+Next: Navigate to the project root folder and run `pipenv shell` to create a virtual environment. This will also cerate a Pipfile in your root directory. To check the virtual environment run `pipenv --venv`. This is like any other virtual environment. 
 
 ### Step 3 - Install libraries
 
 Run `pipenv install pandas numpy scikit-learn matplotlib seaborn mlflow xgboost prefect hyperopt feature-engine joblib jupyter prefect`. This will also create a Pipfile.lock file with more details about the packages and their versions
 
 Next: run `piipenv install pytest --dev` for installing pytest only for development purpose
+
+***NOTE*** : If you find diffculties with pipenv, please use a conda environment
 
 ### Step 4 - Initialize a empty git repository in your root folder and make a first push
 
@@ -46,5 +48,9 @@ Next: Run `git remote set-url origin <add your username before github in the rep
 Next: Now you can run `git push origin main` to send your first commit to remote repo
 
 **Note**: Make sure that you are mentioning the files in gitignore, which you want to push (eg. personal acces tokens, any other secrets)
+
+### Next:
+
+As and when we make progress, we will push the code to GitHub. Please see the commits and description for further information
 
 

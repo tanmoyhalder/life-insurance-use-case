@@ -16,6 +16,9 @@ feature-engine = "*"
 joblib = "*"
 jupyter = "*"
 prefect = "*"
+flask = "*"
+jsonify = "*"
+requests = "*"
 
 [dev-packages]
 pytest = "*"
