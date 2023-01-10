@@ -1,5 +1,6 @@
 Author: Tanmoy Halder
 Date: 09/01/2023
+Updated: 10/01/2023
 
 ### Pre-requisite
 
@@ -26,5 +27,10 @@ To store models, artifacts, parameters and other metadata and specifically to st
 
 - Ensure you are in the newly created folder
 - While launching the mlflow ui thorugh CLI run `mlflow ui --backend-store-uri sqlite:///mlflow.db`
+
+### Follow code
+
+`persistency_first_experiment`
+`persistency_second_experiment - mlflow + hyperopt + xgboost.ipynb`
 
 
