@@ -32,5 +32,6 @@ To store models, artifacts, parameters and other metadata and specifically to st
 
 `persistency_first_experiment`
 `persistency_second_experiment - mlflow + hyperopt + xgboost.ipynb`
+`persistency_third_experiment - mlflow + hyperopt + xgboost - new data.ipynb` -- this is the final experiment code
 
 
